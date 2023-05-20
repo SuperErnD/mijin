@@ -3,7 +3,17 @@
 
 ## An just simple function-library for injecting into methods
 
+### <font color="yellow">WARNING!!!</font>
+
 Based on Node but compatible with Deno and browser!
+
+PLEASE USE FOR ADVANCED MIXINS REMIXIN, MIJIN WILL REWRITTEN LIKE REMIXIN
+
+https://github.com/soundcloud/remixin/tree/master
+
+You can use it, but it recomended to use with functions, not classes, and also if you inject into class method you cant get `this` object
+
+### <font color="yellow">!!!</font>
 
 
 
@@ -25,7 +35,7 @@ const c = mijin(a, b, "AFTER")
 c()
 ```
 
-### Deno (NOT COMPATIBLE BECAUSE arguments IS MISSING`)
+### Deno
 ```js
 import mijin from 'https://deno.land/x/mijin/mijin.js'
 const a = () => {
