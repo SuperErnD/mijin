@@ -25,9 +25,9 @@ const c = mijin(a, b, "AFTER")
 c()
 ```
 
-### Deno
+### Deno (NOT COMPATIBLE BECAUSE arguments IS MISSING`)
 ```js
-import mijin from 'https://deno.land/mijin/mijin.js'
+import mijin from 'https://deno.land/x/mijin/mijin.js'
 const a = () => {
     console.log('Hello world 1')
 }
