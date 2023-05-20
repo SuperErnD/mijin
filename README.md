@@ -3,6 +3,8 @@
 
 ## An just simple function-library for injecting into methods
 
+Based on Node but compatible with Deno and browser!
+
 ## Examples
 
 ```js
