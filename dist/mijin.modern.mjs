@@ -1,0 +1,2 @@
+var r=(r,n,t="BEFORE",a=!1)=>{if(!r||!n)throw new Error("Invalid inject function usage!: invalid what or into");if("BEFORE"===t){if(!a)return()=>(n.apply(r,arguments),r.apply(r,arguments));if(a)return()=>{const t=n.apply(r,arguments);return r.apply(r,arguments),t}}else if("AFTER"===t){if(!a)return()=>{const t=r.apply(r,arguments);return n.apply(r,arguments),t};if(a)return()=>{const t=n.apply(r,arguments);return r.apply(r,arguments),t}}};export{r as default};
+//# sourceMappingURL=mijin.modern.mjs.map

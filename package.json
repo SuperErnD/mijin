@@ -1,0 +1,16 @@
+{
+  "name": "mijin",
+  "version": "1.0.0",
+  "description": "An inject library for js",
+  "source": "./mijin.js",
+  "main": "./dist/mijin.cjs",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "author": "Diman",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  }
+}

@@ -1,0 +1,2 @@
+var n="undefined"==typeof arguments?void 0:arguments,r=function(r,t,i,a){if(void 0===i&&(i="BEFORE"),void 0===a&&(a=!1),!r||!t)throw new Error("Invalid inject function usage!: invalid what or into");if("BEFORE"===i){if(!a)return function(){return t.apply(r,n),r.apply(r,n)};if(a)return function(){var i=t.apply(r,n);return r.apply(r,n),i}}else if("AFTER"===i){if(!a)return function(){var i=r.apply(r,n);return t.apply(r,n),i};if(a)return function(){var i=t.apply(r,n);return r.apply(r,n),i}}};export{r as default};
+//# sourceMappingURL=mijin.esm.mjs.map
