@@ -1,0 +1,22 @@
+# Mijin 
+<sub><sup>From Mixin and Inject</sup></sub>
+
+## An just simple function-library for injecting into methods
+
+## Examples
+
+```js
+
+const a = () => {
+    console.log('Hello world 1')
+}
+
+const b = () => {
+    console.log('Hello world 2')
+}
+
+const c = mijin(a, b, "AFTER")
+
+c()
+
+```
