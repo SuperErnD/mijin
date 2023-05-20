@@ -4,13 +4,16 @@
   "description": "An inject library for js",
   "source": "./mijin.js",
   "main": "./dist/mijin.cjs",
+  "type": "module",
   "scripts": {
     "build": "microbundle",
-    "dev": "microbundle watch"
+    "dev": "microbundle watch",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "author": "Diman",
   "license": "MIT",
   "devDependencies": {
+    "jest": "^29.5.0",
     "microbundle": "^0.15.1"
   }
 }

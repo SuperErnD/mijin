@@ -1,2 +1,2 @@
 var r=(r,n,p="BEFORE",t=!1)=>{if(!r||!n)throw new Error("Invalid inject function usage!: invalid what or into");if("BEFORE"===p){if(!t)return(...p)=>(n.apply(r,p),r.apply(r,p));if(t)return(...p)=>{const t=n.apply(r,p);return r.apply(r,p),t}}else if("AFTER"===p){if(!t)return(...p)=>{const t=r.apply(r,p);return n.apply(r,p),t};if(t)return(...p)=>{const t=n.apply(r,p);return r.apply(r,p),t}}};export{r as default};
-//# sourceMappingURL=mijin.modern.mjs.map
+//# sourceMappingURL=mijin.modern.js.map

@@ -1,2 +1,2 @@
 module.exports=function(r,n,i,l){if(void 0===i&&(i="BEFORE"),void 0===l&&(l=!1),!r||!n)throw new Error("Invalid inject function usage!: invalid what or into");if("BEFORE"===i){if(!l)return function(){var i=[].slice.call(arguments);return n.apply(r,i),r.apply(r,i)};if(l)return function(){var i=[].slice.call(arguments),l=n.apply(r,i);return r.apply(r,i),l}}else if("AFTER"===i){if(!l)return function(){var i=[].slice.call(arguments),l=r.apply(r,i);return n.apply(r,i),l};if(l)return function(){var i=[].slice.call(arguments),l=n.apply(r,i);return r.apply(r,i),l}}};
-//# sourceMappingURL=mijin.js.map
+//# sourceMappingURL=mijin.cjs.map
