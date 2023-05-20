@@ -20,3 +20,13 @@ const c = mijin(a, b, "AFTER")
 c()
 
 ```
+
+## Build
+```sh
+npm run build
+# Now check ./dist!
+```
+
+## License
+
+[WTFPL](http://www.wtfpl.net/)
